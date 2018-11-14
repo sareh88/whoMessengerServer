@@ -7,7 +7,7 @@ files/*
 temp/*
 !files/empty
 !temp/empty
-
+.vscode
 #Logs
 npm-debug.log
 yarn-error.log

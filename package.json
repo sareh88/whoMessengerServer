@@ -8,11 +8,10 @@
   "scripts": {
     "start": "concurrently --kill-others  \"yarn run server\"  \"yarn run socket\"",
     "start:debug": "DEBUG=1 yarn run server",
-    "heroku-postbuild": "npm run build",
     "server": "nodemon app.js",
     "socket": "nodemon index.js"
   },
-  "repository": "",
+  "repository": "sareh88/whoMessengerServer.git",
   "author": "Sareh Almaaz",
   "license": "MIT",
   "private": true,
