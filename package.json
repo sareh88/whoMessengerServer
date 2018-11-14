@@ -1,14 +1,12 @@
 {
   "name": "whoMessengerServer",
   "version": "1.0.0",
-  "main": "app.js",
-  "engines": {
-    "node": "v8.11.1"
-  },
+  "main": "index.js",
   "scripts": {
     "start": "concurrently --kill-others  \"yarn run server\"  \"yarn run socket\"",
+    "now-start": "node index.js",
     "start:debug": "DEBUG=1 yarn run server",
-    "server": "nodemon app.js",
+    "server": "nodemon index.js",
     "socket": "nodemon index.js"
   },
   "repository": "sareh88/whoMessengerServer.git",
@@ -45,7 +43,6 @@
     "eslint-plugin-promise": "3.8.0",
     "eslint-plugin-react": "7.8.2",
     "eslint-plugin-react-native": "3.2.1",
-    "extract-text-webpack-plugin": "3.0.2",
     "qs": "^6.5.1",
     "socket.io": "^2.0.4",
     "socket.io-client": "*",
