@@ -1,0 +1,17 @@
+#local
+node_modules
+deprecated_tests
+coverage
+test/**/*.png
+files/*
+temp/*
+!files/empty
+!temp/empty
+
+#Logs
+npm-debug.log
+yarn-error.log
+
+#Build
+dist
+
